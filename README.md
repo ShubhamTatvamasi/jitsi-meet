@@ -28,4 +28,8 @@ HTTPS_PORT=443
 PUBLIC_URL=https://meet.example.com
 ```
 
+Create directories:
+```bash
+mkdir -p ~/.jitsi-meet-cfg/{web,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
+```
 
