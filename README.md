@@ -26,10 +26,22 @@ Update these values in `.env` file:
 HTTP_PORT=80
 HTTPS_PORT=443
 PUBLIC_URL=https://meet.example.com
+
+ENABLE_LETSENCRYPT=1
+LETSENCRYPT_DOMAIN=meet.synergyquantum.in
+LETSENCRYPT_EMAIL=info@synergyquantum.in
+LETSENCRYPT_USE_STAGING=1
+
+RESTART_POLICY=unless-stopped
 ```
 
 Create directories:
 ```bash
 mkdir -p ~/.jitsi-meet-cfg/{web,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
+```
+
+Start docker compose:
+```bash
+docker-compose up -d
 ```
 
