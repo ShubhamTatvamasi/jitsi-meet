@@ -25,6 +25,7 @@ Update these values in `.env` file:
 ```
 HTTP_PORT=80
 HTTPS_PORT=443
+PUBLIC_URL=https://meet.example.com
 ```
 
 
