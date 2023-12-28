@@ -16,7 +16,7 @@ tar -zxvf stable-9111.tar.gz
 
 Create `.env` file and set random passwords:
 ```bash
-cd docker-jitsi-meet-stable-9111/
+cd docker-jitsi-meet-stable-9111
 cp env.example .env
 ./gen-passwords.sh
 ```
