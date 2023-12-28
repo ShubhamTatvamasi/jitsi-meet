@@ -28,8 +28,8 @@ HTTPS_PORT=443
 PUBLIC_URL=https://meet.example.com
 
 ENABLE_LETSENCRYPT=1
-LETSENCRYPT_DOMAIN=meet.synergyquantum.in
-LETSENCRYPT_EMAIL=info@synergyquantum.in
+LETSENCRYPT_DOMAIN=meet.example.com
+LETSENCRYPT_EMAIL=info@example.com
 LETSENCRYPT_USE_STAGING=1
 
 RESTART_POLICY=unless-stopped
