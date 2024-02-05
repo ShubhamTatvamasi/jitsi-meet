@@ -11,12 +11,12 @@ wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-9220.ta
 
 Extract:
 ```bash
-tar -zxvf stable-9111.tar.gz
+tar -zxvf stable-9220.tar.gz
 ```
 
 Create `.env` file and set random passwords:
 ```bash
-cd docker-jitsi-meet-stable-9111
+cd docker-jitsi-meet-stable-9220
 cp env.example .env
 ./gen-passwords.sh
 ```
