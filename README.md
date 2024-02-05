@@ -6,7 +6,7 @@ https://github.com/jitsi/docker-jitsi-meet/releases/latest
 
 Download latest release:
 ```bash
-wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-9111.tar.gz
+wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-9220.tar.gz
 ```
 
 Extract:
