@@ -1,18 +1,18 @@
 [common]
-server_addr = meet.shubhamtatvamasi.com
+server_addr = meet.example.com
 server_port = 7000
 
-[meet_shubhamtatvamasi_com_udp]
+[meet_example_com_udp]
 type = udp
 local_port = 10000
 remote_port = 10000
 
-[meet_shubhamtatvamasi_com_http]
+[meet_example_com_http]
 type = http
 local_port = 80
-custom_domains = meet.shubhamtatvamasi.com
+custom_domains = meet.example.com
 
-[meet_shubhamtatvamasi_com_https]
+[meet_example_com_https]
 type = https
 local_port = 443
-custom_domains = meet.shubhamtatvamasi.com
+custom_domains = meet.example.com
