@@ -22,7 +22,7 @@ cp env.example .env
 ```
 
 Update these values in `.env` file:
-```
+```bash
 HTTP_PORT=80
 HTTPS_PORT=443
 PUBLIC_URL=https://meet.example.com
@@ -32,6 +32,11 @@ LETSENCRYPT_DOMAIN=meet.example.com
 LETSENCRYPT_EMAIL=info@example.com
 
 RESTART_POLICY=unless-stopped
+
+# This is if we are running behind NAT
+# Private IP: 192.168.1.1
+# Public IP: 1.2.3.4
+JVB_ADVERTISE_IPS=192.168.1.1,1.2.3.4
 ```
 
 Create directories:
