@@ -21,7 +21,7 @@ cp env.example .env
 ./gen-passwords.sh
 ```
 
-We have to open port 80,443,10000/udp
+We have to open port `80/tcp`,`443/tcp`,`10000/udp`
 
 Update these values in `.env` file:
 ```bash
