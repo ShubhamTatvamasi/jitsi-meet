@@ -51,3 +51,15 @@ Start docker compose:
 docker-compose up -d
 ```
 
+### Custom Build
+
+Add `assetlinks.conf` in 443 server block:
+```bash
+vim web/rootfs/defaults/
+```
+```
+	include /config/nginx/assetlinks.conf;
+```
+
+ 
+
