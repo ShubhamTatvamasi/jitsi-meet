@@ -1,8 +1,14 @@
-[{
-   "relation": ["delegate_permission/common.handle_all_urls"],
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
-        "namespace": "android_app",
-        "package_name": "com.sq.mesq",
-        "Sha256_cert_fingerprints":  ["26:7F:16:94:13:A7:AA:EA:C0:A8:DC:03:08:35:39:F6:E2:A1:DC:D3:53:9E:DC:FB:2C:0A:06:AA:FD:C7:22:60"]
-   }
-}]
+      "namespace": "android_app",
+      "package_name": "com.sq.mesq",
+      "Sha256_cert_fingerprints": [
+        "26:7F:16:94:13:A7:AA:EA:C0:A8:DC:03:08:35:39:F6:E2:A1:DC:D3:53:9E:DC:FB:2C:0A:06:AA:FD:C7:22:60"
+      ]
+    }
+  }
+]
