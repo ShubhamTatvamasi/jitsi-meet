@@ -53,17 +53,24 @@ docker-compose up -d
 
 ### Custom Build
 
-Add `assetlinks.conf` in 443 server block:
-```bash
-vim web/rootfs/defaults/
+Put `assetlinks.conf` file at this location in the repo: 
 ```
+ls web/rootfs/defaults/assetlinks.conf
+```
+
+include `assetlinks.conf` in `default` file in 443 server block:
+```bash
+vim web/rootfs/defaults/default
+```
+
 ```
 	include /config/nginx/assetlinks.conf;
 ```
 
+
 Put your `assetlinks.json` file at this location:
 ```
-~/.jitsi-meet-cfg/web/assetlinks.json
+ls ~/.jitsi-meet-cfg/web/assetlinks.json
 ```
 
 Build docker image:
@@ -71,5 +78,4 @@ Build docker image:
 cd web
 docker build -t jitsi/web:stable-9220 --build-arg BASE_TAG=stable-9220 .
 ```
-
 
