@@ -66,10 +66,10 @@ Put your `assetlinks.json` file at this location:
 ~/.jitsi-meet-cfg/web/assetlinks.json
 ```
 
+Build docker image:
 ```bash
-
 cd web
-docker build -t jitsi/web:stable-9220 .
+docker build -t jitsi/web:stable-9220 --build-arg BASE_TAG=stable-9220 .
 ```
 
 
