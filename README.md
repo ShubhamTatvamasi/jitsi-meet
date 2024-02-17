@@ -61,5 +61,8 @@ vim web/rootfs/defaults/
 	include /config/nginx/assetlinks.conf;
 ```
 
- 
+Put your `assetlinks.json` file at this location:
+```
+~/.jitsi-meet-cfg/web/assetlinks.json
+```
 
