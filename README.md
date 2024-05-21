@@ -56,6 +56,7 @@ docker-compose up -d
 Put `assetlinks.conf` file at this location in the repo: 
 ```
 ls web/rootfs/defaults/assetlinks.conf
+ls ~/.jitsi-meet-cfg/web/nginx/assetlinks.conf
 ```
 
 include `assetlinks.conf` in `default` file in 443 server block:
