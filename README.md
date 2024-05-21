@@ -70,7 +70,7 @@ vim web/rootfs/defaults/default
 
 Put your `assetlinks.json` file at this location:
 ```
-ls ~/.jitsi-meet-cfg/web/nginx/assetlinks.json
+ls ~/.jitsi-meet-cfg/web/assetlinks.json
 ```
 
 Build docker image:
