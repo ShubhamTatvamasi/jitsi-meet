@@ -6,17 +6,17 @@ https://github.com/jitsi/docker-jitsi-meet/releases/latest
 
 Download latest release:
 ```bash
-wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-9220.tar.gz
+wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-9457-2.tar.gz
 ```
 
 Extract:
 ```bash
-tar -zxvf stable-9220.tar.gz
+tar -zxvf stable-9457-2.tar.gz
 ```
 
 Create `.env` file and set random passwords:
 ```bash
-cd docker-jitsi-meet-stable-9220
+cd docker-jitsi-meet-stable-9457-2
 cp env.example .env
 ./gen-passwords.sh
 ```
@@ -76,6 +76,6 @@ ls ~/.jitsi-meet-cfg/web/assetlinks.json
 Build docker image:
 ```bash
 cd web
-docker build -t jitsi/web:stable-9220 --build-arg BASE_TAG=stable-9220 .
+docker build -t jitsi/web:stable-9457-2 --build-arg BASE_TAG=stable-9457-2 .
 ```
 
