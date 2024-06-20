@@ -66,6 +66,7 @@ vim web/rootfs/defaults/default
 
 ```
 	include /config/nginx/assetlinks.conf;
+        include /config/nginx/apple-app-site-association.conf;
 ```
 
 
