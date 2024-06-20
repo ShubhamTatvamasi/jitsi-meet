@@ -57,6 +57,9 @@ Put `assetlinks.conf` file at this location in the repo:
 ```
 ls web/rootfs/defaults/assetlinks.conf
 ls ~/.jitsi-meet-cfg/web/nginx/assetlinks.conf
+
+ls web/rootfs/defaults/apple-app-site-association.conf
+ls ~/.jitsi-meet-cfg/web/nginx/apple-app-site-association.conf
 ```
 
 include `assetlinks.conf` in `default` file in 443 server block:
@@ -73,6 +76,7 @@ vim web/rootfs/defaults/default
 Put your `assetlinks.json` file at this location:
 ```
 ls ~/.jitsi-meet-cfg/web/assetlinks.json
+ls ~/.jitsi-meet-cfg/web/apple-app-site-association
 ```
 
 Build docker image:
