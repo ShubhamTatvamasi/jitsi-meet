@@ -1,0 +1,11 @@
+content - {
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "5JYY6TW6MH.com.sq.mesq",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
