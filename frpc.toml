@@ -1,18 +1,20 @@
-[common]
-server_addr = meet.example.com
-server_port = 7000
+serverAddr = "meet.example.com"
+serverPort = 7000
 
-[meet_example_com_udp]
-type = udp
-local_port = 10000
-remote_port = 10000
+[[proxies]]
+name = "meet_example_com_udp"
+type = "udp"
+localPort = 10000
+remotePort = 10000
 
-[meet_example_com_http]
-type = http
-local_port = 80
-custom_domains = meet.example.com
+[[proxies]]
+name = "meet_example_com_http"
+type = "http"
+localPort = 80
+customDomains = ["meet.example.com"]
 
-[meet_example_com_https]
-type = https
-local_port = 443
-custom_domains = meet.example.com
+[[proxies]]
+name = "meet_example_com_https"
+type = "https"
+localPort = 443
+customDomains = ["meet.example.com"]
