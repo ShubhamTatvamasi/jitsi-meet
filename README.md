@@ -39,6 +39,9 @@ RESTART_POLICY=unless-stopped
 # Private IP: 192.168.1.1
 # Public IP: 1.2.3.4
 JVB_ADVERTISE_IPS=192.168.1.1,1.2.3.4
+
+# Custom JVB UDP Connection port
+JVB_PORT=10001
 ```
 
 Create directories:
