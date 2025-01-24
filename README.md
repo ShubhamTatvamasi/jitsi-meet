@@ -46,7 +46,7 @@ JVB_PORT=10001
 
 Create directories:
 ```bash
-mkdir -p ~/.jitsi-meet-cfg/{web,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
+mkdir -p ~/.jitsi-meet-cfg/{web/nginx,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
 ```
 
 Start docker compose:
